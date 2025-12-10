@@ -1,13 +1,17 @@
-nav{
-  padding:5px
-}
+
 nav a{
-  color:cyan;
+  color:blue;
   margin:0 10px 0 10px;
   display:inline-block;
-  width:20%;
+}
+nav a:hover{
+  background-color: crimson;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 1s ease-out, transform 1s ease-out;
 }
 
+}
 /* Challenge 7: Make the font for all elements Arial */
     *{
       font-family: Arial;
@@ -34,5 +38,6 @@ nav a{
     }
     p{
       align-items: center;
-      color:turquoise
+      color:crimson;
+      font-size: 25px;
     }
