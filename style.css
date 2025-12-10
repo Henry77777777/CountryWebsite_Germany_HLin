@@ -2,11 +2,10 @@ nav{
   padding:5px
 }
 nav a{
-  color:black;
+  color:cyan;
   margin:0 10px 0 10px;
   display:inline-block;
   width:20%;
-  text-align:center;
 }
 
 /* Challenge 7: Make the font for all elements Arial */
@@ -33,4 +32,6 @@ nav a{
       font-size: large;
       color:blue;
     }
-
+    p{
+      color:turquoise
+    }
