@@ -1,5 +1,6 @@
 nav{
   padding:10px;
+  
 }
 
 nav a{
@@ -11,7 +12,7 @@ nav a{
 nav a:hover{
   background-color: blue;
   padding: 15px 60px;
-  border-radius: 5px;
+  border-radius: 5px;  
 }
 
 
@@ -31,20 +32,24 @@ nav a:hover{
     .banner {
       font-size: 60px;
       text-align: center;
-      color:darkturquoise
-
+      color:red;
+      background-color: black;  
     }
 /* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
     .main{
       font-size: large;
       color:blue;
     }
+
     p{
       align-items: center;
-      color:green;
+      color:darkblue;
       font-size: 25px;
       
     }
 .Gallery{
-  background-color: black;
+  background-color: red;
+}
+div{
+  background-color: yellow;
 }
